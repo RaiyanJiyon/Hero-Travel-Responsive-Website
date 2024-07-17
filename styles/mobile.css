@@ -1,0 +1,43 @@
+/* navbar */
+.navbar {
+  justify-content: space-between;
+  margin: 20px 5px;
+}
+
+.navbar__logo {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar__logo img {
+  width: 20%;
+  height: auto;
+  margin-right: 5px;
+}
+
+.navbar__logo .nav__title {
+  width: 90%;
+  height: auto;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: left;
+}
+
+.nav__item {
+  display: none;
+  list-style: none;
+  margin-right: 44px;
+}
+
+.bar-icon {
+  width: 90%;
+  height: auto;
+  display: block;
+  text-align: right;
+  margin-right: 5px;
+}
