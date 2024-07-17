@@ -155,3 +155,59 @@ button {
   background-color: rgb(255, 84, 0);
   color: rgb(255, 255, 255);
 }
+
+/* popular__tour */
+.popular__tour {
+  width: 1170px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular__tour--content {
+  width: 50%;
+  height: auto;
+}
+
+.tour__title {
+  color: rgb(19, 19, 24);
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.tour__first--paragraph,
+.tour__list--content,
+.tour__second--paragraph {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.tour__list--content {
+  width: 525px;
+  height: 188px;
+  margin-top: 24px;
+}
+
+.btn {
+  margin-top: 32px;
+}
+
+.popular__tour--image {
+  width: 540px;
+  height: 550px;
+  border-radius: 16px;
+}
+
+.popular__tour--image img {
+  width: 100%;
+  height: auto;
+}
