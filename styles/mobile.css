@@ -54,6 +54,7 @@
   justify-content: center;
   overflow-x: hidden;
   position: relative;
+  padding: 20px;
 }
 
 .banner__content {
@@ -76,8 +77,8 @@
 }
 
 .banner__description {
-  width: 304px;
-  height: 63px;
+  width: 100%;
+  height: auto;
   color: rgb(255, 255, 255);
   font-size: 0.87rem;
   font-weight: 400;
@@ -87,13 +88,13 @@
 }
 
 .banner__input {
-  width: 287px;
+  width: 80vw;
   height: 288px;
   padding: 16px;
   padding: 16px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(2px);
 }
 
 .banner__input input[type="text"],

@@ -98,7 +98,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
