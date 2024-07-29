@@ -171,9 +171,9 @@ button {
 
 /* main elements start */
 
-/* popular__tour */
-.popular__tour {
-  width: 1170px;
+/* popular__tour start */
+.popular-tour {
+  max-width: 1170px;
   height: 550px;
   margin: 0 auto;
   margin-top: 100px;
@@ -182,12 +182,12 @@ button {
   align-items: center;
 }
 
-.popular__tour--content {
+.popular-tour__content {
   width: 50%;
   height: auto;
 }
 
-.tour__title {
+.popular-tour__title {
   color: rgb(19, 19, 24);
   font-size: 2.5rem;
   font-weight: 800;
@@ -196,9 +196,8 @@ button {
   margin-bottom: 24px;
 }
 
-.tour__first--paragraph,
-.tour__list--content,
-.tour__second--paragraph {
+.popular-tour__description,
+.popular-tour__list {
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   font-weight: 400;
@@ -206,18 +205,25 @@ button {
   text-align: left;
 }
 
-.tour__list--content {
-  width: 525px;
+.popular-tour__list {
+  max-width: 525px;
   height: 188px;
   margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 14px;
+}
+
+.popular-tour__list-item {
+  margin-bottom: 16px;
 }
 
 .btn {
   margin-top: 32px;
+  cursor: pointer;
 }
 
-.popular__tour--image {
-  width: 540px;
+.popular-tour__image {
+  max-width: 540px;
   height: 550px;
   border-radius: 16px;
 }
@@ -226,6 +232,9 @@ button {
   width: 100%;
   height: auto;
 }
+
+/* popular__tour end */
+
 
 /* choose__destination  */
 .choose__destination {
