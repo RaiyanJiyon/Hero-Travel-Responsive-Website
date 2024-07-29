@@ -30,47 +30,52 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <nav class="navbar">
         <div class="navbar__logo">
           <img src="Images/logo.png" alt="Hero Logo" />
-          <h3 class="nav__title">
+          <h3 class="navbar__title">
             Hero <span class="secondary__color">Travel</span>
           </h3>
         </div>
 
-        <div class="nav__lists">
-          <ul class="nav__list">
-            <li class="nav__item secondary__color"><a href="#">Home</a></li>
-            <li class="nav__item"><a href="#">Packages</a></li>
-            <li class="nav__item"><a href="#">Testimonial</a></li>
-            <li class="nav__item"><a href="#">Blog</a></li>
-            <li class="nav__item"><a href="#">Contact</a></li>
-            <li class="nav__item bar-icon">
+        <div class="navbar__menu">
+          <ul class="navbar__list">
+            <li class="navbar__item secondary__color"><a href="#" class="navbar__link">Home</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Packages</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Testimonial</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Blog</a></li>
+            <li class="navbar__item"><a href="#" class="navbar__link">Contact</a></li>
+            <li class="navbar__item bar-icon">
               <a href="#"><i class="fa-solid fa-bars"></i></a>
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
 
       <div class="banner">
         <div class="banner__content">
           <h1 class="banner__title">Explore Your Travel</h1>
           <p class="banner__description">
-            Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-            adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+            We help promote destinations, tourism boards, resorts, tour operators and more. Our readers are actively planning their trips. 
           </p>
         </div>
 
         <div class="banner__input">
-          <input type="text" name="" id="" placeholder="Where go" />
-          <select name="" id="">
+          <input class="banner__input--field" type="text" name="" id="" placeholder="Where go" />
+          <select class="banner__input--select" name="" id="">
             <option value="">When</option>
+            <option value="">Saturday</option>
+            <option value="">Sunday</option>
+            <option value="">Monday</option>
           </select>
-          <select name="" id="">
+          <select class="banner__input--select" name="" id="">
             <option value="">Select Type</option>
+            <option value="">Family Packages</option>
+            <option value="">Friends Packages</option>
+            <option value="">Couple Packages</option>
           </select>
           <button class="primary-btn">
-            <i class="fa-solid fa-magnifying-glass"></i> Find Now
+            <i class="fa-solid fa-magnifying-glass search--icon"></i> Find Now
           </button>
         </div>
       </div>
@@ -156,6 +161,44 @@
             <img src="Images/Rectangle-10.png" alt="Bandarban" />
             <p>Bandarban</p>
           </div>
+        </div>
+      </section>
+
+      <section class="choose__us">
+        <div class="choose__us-content">
+            <h2 class="choose__title">Why Choose Us</h2>
+            <p class="choose__description">
+                Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+        </div>
+
+        <div class="choose__card">
+            <div class="card__row-1">
+                <div class="hotel">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Handpicked Hotels</h3>
+                    <p>
+                        Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-taxi"></i>
+                    <h3>World Class Service</h3>
+                    <p>
+                        Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="card__row-2">
+                <div class="price">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <h3>Best Price Guarantee</h3>
+                    <p>
+                        Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+                    </p>
+                </div>
+            </div>
         </div>
       </section>
     </main>
