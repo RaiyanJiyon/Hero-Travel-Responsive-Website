@@ -3,7 +3,7 @@
 body {
   font-family: "Mulish", sans-serif;
   max-width: 1440px;
-  height: 6940px;
+  height: auto;
   margin: 0 auto;
   background: rgb(255, 255, 255);
 }
