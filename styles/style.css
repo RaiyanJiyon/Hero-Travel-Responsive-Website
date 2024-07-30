@@ -581,7 +581,7 @@ button {
 
 /* deals section ends */
 
-/* place section ends */
+/* place section start */
 
 .place-section {
   max-width: 1170px;
@@ -673,3 +673,147 @@ button {
   letter-spacing: 0%;
   text-align: center;
 }
+
+/* place section end */
+
+/* newsletter section start */
+
+.newsletter-section {
+  max-width: 1170px;
+  height: 422px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter__content {
+  width: 474px;
+  height: 422px;
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 16px;
+}
+
+.newsletter__center {
+  width: 393px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.newsletter__title {
+  max-width: 126px;
+  height: 30px;
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.newsletter__description {
+  max-width: 350px;
+  height: 52px;
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.horizontal__row {
+  max-width: 393px;
+  height: 0;
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 25px;
+}
+
+.newsletter__form input[type="text"],
+.newsletter__form input[type="email"] {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 16px;
+}
+
+.newsletter__form input::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 0;
+  padding-left: 20px;
+}
+
+.newsletter-btn {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.newsletter__image {
+  max-width: 672px;
+  height: 422px;
+  position: relative;
+}
+
+.newsletter__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter__travel-box {
+  max-width: 324px;
+  height: 120px;
+  width: 324px; /* Set explicit width */
+  height: 120px; /* Set explicit height */
+  transform: rotate(-19.63deg);
+  border-radius: 16px;
+  background: rgb(255, 84, 0);
+  padding-top: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+}
+
+.newsletter__travel-content {
+  max-width: 244px;
+  height: 74px;
+  margin: 0 auto;
+}
+
+.newsletter__travel-caption {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.newsletter__travel-description {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* newsletter section end */
