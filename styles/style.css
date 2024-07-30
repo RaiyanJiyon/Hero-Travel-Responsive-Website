@@ -856,6 +856,10 @@ footer {
   cursor: pointer;
 }
 
+.footer__icon {
+  font-size: 1.2rem;
+}
+
 .footer__horizontal-row {
   max-width: 872px;
 height: 0;
