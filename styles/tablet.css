@@ -1,79 +1,100 @@
-/* navbar */
+/* navbar start */
 .navbar {
-  justify-content: center;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 20px 5px;
-  padding: 5px;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .navbar__logo {
-  width: 90%;
+  width: 100%;
   height: auto;
-  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .navbar__logo img {
-  width: 40%;
+  width: auto;
   height: auto;
-  margin-right: 5px;
 }
 
-.navbar__logo .nav__title {
-  width: 80%;
-  height: auto;
-  font-size: 1.4rem;
+.navbar__title {
+  font-size: 2.2rem;
   font-weight: 800;
-  line-height: 30px;
+  line-height: 44px;
+  letter-spacing: 0%;
   text-align: left;
-  margin-right: 15px;
 }
 
-.nav__item {
+.navbar__item {
   margin-right: 24px;
+  display: none;
 }
 
-.nav__item a {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 15px;
-  text-align: center;
+.bar-icon {
+  display: block;
+  font-size: 1.5rem
 }
 
-/* banner */
+/* navbar end */
+
+/* banner start*/
 .banner {
-  width: 80vw;
+  width: 90%;
   height: auto;
-  margin-top: 30px;
+  margin: 0 auto;
+  border: none;
+  margin-top: 20px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 
 .banner__content {
-  margin-bottom: 8px;
+  margin-bottom: 48px;
 }
 
 .banner__title {
   width: 100%;
   height: auto;
-  font-size: 1.67rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
   font-weight: 800;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .banner__description {
-  width: 304px;
-  height: 63px;
-  font-size: 0.8rem;
+  width: 100%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 0.87rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 20px;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
 .banner__input {
-  width: 287px;
-  height: 288px;
-  padding: 16px;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1px);
 }
 
 .banner__input input[type="text"],
@@ -82,12 +103,10 @@ button {
   width: 100%;
   height: 52px;
   font-size: 1rem;
-  line-height: 10px;
-  text-align: center;
-  margin-bottom: 16px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 10px;
 }
 
-.primary-btn {
-  background-color: rgb(255, 84, 0);
-  color: rgb(255, 255, 255);
-}
+/* banner end */

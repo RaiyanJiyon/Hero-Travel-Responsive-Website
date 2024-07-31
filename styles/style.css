@@ -24,14 +24,20 @@ body {
   display: none;
 }
 
+#display-hide {
+  display: none;
+}
+
 /* shared variables */
 
 /* header elements start */
 
 /* navbar start */
 .navbar {
+  max-width: 1170px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 35px;
 }
@@ -155,6 +161,7 @@ button {
 .primary-btn {
   background-color: rgb(255, 84, 0);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .search--icon {
