@@ -40,7 +40,7 @@
 
 .bar-icon {
   display: block;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 /* navbar end */
@@ -106,12 +106,10 @@ button {
   line-height: 20px;
   margin-top: 20px;
   margin-right: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* banner end */
-
-
 
 /* main elements start */
 
@@ -181,3 +179,61 @@ button {
 }
 
 /* popular__tour end */
+
+/* choose__destination start */
+.choose-destination {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.choose-destination__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-destination__title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.choose-destination__description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.choose-destination__row--row-1,
+.choose-destination__row--row-2,
+.choose-destination__row--row-3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.choose-destination__image {
+  position: relative;
+  height: 376px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.choose-destination__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.choose-destination__image-caption {
+  font-size: 1.7rem;
+}
+
+/* choose__destination end */
