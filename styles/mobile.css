@@ -108,6 +108,7 @@ button {
   line-height: 20px;
   margin-top: 20px;
   margin-right: 0;
+  margin-bottom: 20px;
 }
 
 /* banner end */
@@ -163,7 +164,8 @@ button {
 }
 
 .btn {
-  width: 40%;
+  width: 50%;
+  height: 52px;
   margin: 25px 0;
 }
 
@@ -171,14 +173,12 @@ button {
   width: 100%;
   height: auto;
   border-radius: 16px;
-  border: 2px solid red;
   object-fit: cover;
 }
 
-.popular__tour--image img {
+.popular-tour__image img {
   width: 100%;
   height: auto;
-  
 }
 
 /* popular__tour end */
