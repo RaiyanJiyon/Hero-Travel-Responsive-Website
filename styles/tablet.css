@@ -238,7 +238,6 @@ button {
 
 /* choose__destination end */
 
-
 /* choose us start */
 .choose-us {
   width: 90%;
@@ -528,3 +527,144 @@ button {
 }
 
 /* place section end */
+
+/* newsletter section start */
+
+.newsletter-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.newsletter__content {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(255, 84, 0);
+  border-radius: 16px;
+}
+
+.newsletter__center {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.newsletter__title {
+  width: 100%;
+  height: auto;
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.newsletter__description {
+  width: 100%;
+  height: auto;
+  color: rgb(90, 90, 93);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.horizontal__row {
+  max-width: 393px;
+  height: 0;
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 25px;
+}
+
+.newsletter__form input[type="text"],
+.newsletter__form input[type="email"] {
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(19, 19, 24, 0.05);
+  margin-bottom: 16px;
+}
+
+.newsletter__form input::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 0;
+  padding-left: 20px;
+}
+
+.newsletter-btn {
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.newsletter__image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.newsletter__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter__travel-box {
+  width: 214.02px;
+  height: auto;
+  transform: rotate(-19.63deg);
+  border-radius: 16px;
+  background: rgb(255, 84, 0);
+  padding-top: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+}
+
+.newsletter__travel-content {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.newsletter__travel-caption {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.newsletter__travel-description {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* newsletter section end */
