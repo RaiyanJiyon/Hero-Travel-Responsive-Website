@@ -339,3 +339,92 @@ button {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* choose-us section end */
+
+
+/* deals section start */
+
+.deals-section {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.deals__content-title {
+  width: 90%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 40px;
+}
+
+.deals__content-description {
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.deals__cards {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+  border: 1px solid transparent;
+}
+
+.deals__card {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 187px;
+  margin-bottom: 24px;
+  padding: 0 16px;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.deals__card-content {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.deals__card-row--1 {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.deals__card-row--1 p {
+  margin-bottom: 8px;
+}
+
+.deals__card-title {
+  font-size: 1.25rem;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.deals__card-description {
+  font-size: 0.875rem;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.deals__card-price {
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.deals__card-btn {
+  max-width: 40%;
+  height: 50px;
+  font-size: 1rem;
+}
+
+.deals__packages-btn {
+  font-size: 18px;
+  margin-top: 24px;
+}
